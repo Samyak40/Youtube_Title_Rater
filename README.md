@@ -1,6 +1,6 @@
-# Titleater
+# TitleRater
 
-TitleRate is an ML system that predicts how well a YouTube title will perform, normalized for channel size.
+TitleRater is an ML system that predicts how well a YouTube title will perform, normalized for channel size.
 
 ## Phase 1 Setup
 
