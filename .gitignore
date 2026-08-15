@@ -1,0 +1,17 @@
+# Environments
+venv/
+.env
+
+# Cache
+__pycache__/
+*.pyc
+
+# Data (keep directory structure but ignore contents)
+data/raw/*.csv
+data/raw/*.json
+data/processed/*.csv
+data/processed/*.json
+
+# IDE
+.vscode/
+.idea/
