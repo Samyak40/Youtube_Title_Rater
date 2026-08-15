@@ -15,3 +15,7 @@ data/processed/*.json
 # IDE
 .vscode/
 .idea/
+
+# Models
+models/**/*.pkl
+models/**/*.npy
