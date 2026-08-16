@@ -1,10 +1,13 @@
 # Environments
 venv/
 .env
+.env.*
+!.env.example
 
 # Cache
 __pycache__/
 *.pyc
+.DS_Store
 
 # Data (keep directory structure but ignore contents)
 data/raw/*.csv
@@ -16,6 +19,12 @@ data/processed/*.json
 .vscode/
 .idea/
 
+# Build Output
+dist/
+build/
+node_modules/
+
 # Models
-models/**/*.pkl
 models/**/*.npy
+models/**/*.pkl
+!models/baseline/*.pkl
